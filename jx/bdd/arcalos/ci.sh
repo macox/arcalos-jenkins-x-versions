@@ -35,7 +35,7 @@ export JX_VALUE_PROW_HMACTOKEN="$GH_ACCESS_TOKEN"
 # TODO temporary hack until the batch mode in jx is fixed...
 export JX_BATCH_MODE="true"
 
-git clone https://github.com/jenkins-x/arcalos-boot-config.git boot-source
+git clone https://github.com/cloudbees/arcalos-boot-config.git boot-source
 cp jx/bdd/arcalos/jx-requirements.yml boot-source
 cp jx/bdd/arcalos/parameters.yaml boot-source/env
 cd boot-source
