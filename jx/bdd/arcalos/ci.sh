@@ -47,7 +47,7 @@ helm repo add jenkins-x https://storage.googleapis.com/chartmuseum.jenkins-x.io
 jx step bdd \
     --use-revision \
     --version-repo-pr \
-    --versions-repo https://github.com/jenkins-x/arcalos-jenkins-x-versions.git \
+    --versions-repo https://github.com/cloudbees/arcalos-jenkins-x-versions.git \
     --config ../jx/bdd/arcalos/cluster.yaml \
     --gopath /tmp \
     --git-provider=github \
