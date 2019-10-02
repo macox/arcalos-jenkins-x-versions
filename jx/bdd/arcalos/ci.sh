@@ -35,7 +35,7 @@ export JX_VALUE_PROW_HMACTOKEN="$GH_ACCESS_TOKEN"
 # TODO temporary hack until the batch mode in jx is fixed...
 export JX_BATCH_MODE="true"
 
-git clone https://github.com/jenkins-x/arcalos-boot-config.git boot-source
+git clone https://github.com/cloudbees/arcalos-boot-config.git boot-source
 cp jx/bdd/arcalos/jx-requirements.yml boot-source
 cp jx/bdd/arcalos/parameters.yaml boot-source/env
 cd boot-source
@@ -47,7 +47,7 @@ helm repo add jenkins-x https://storage.googleapis.com/chartmuseum.jenkins-x.io
 jx step bdd \
     --use-revision \
     --version-repo-pr \
-    --versions-repo https://github.com/jenkins-x/arcalos-jenkins-x-versions.git \
+    --versions-repo https://github.com/cloudbees/arcalos-jenkins-x-versions.git \
     --config ../jx/bdd/arcalos/cluster.yaml \
     --gopath /tmp \
     --git-provider=github \
