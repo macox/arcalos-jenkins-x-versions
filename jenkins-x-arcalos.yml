@@ -79,10 +79,14 @@ pipelineConfig:
           steps:
           - name: clone_arcalos
             command: git
-            args: ['clone','https://github.com/cloudbees/arcalos']
+            args: ['clone','https://github.com/cloudbees/arcalos','arcalos']
 
           - name: debug1
             command: pwd
+
+          - name: debug2
+            command: ls
+            args: ['-al']
 
           - name: create_project
             command: ./create_aps_consumer_project.sh
