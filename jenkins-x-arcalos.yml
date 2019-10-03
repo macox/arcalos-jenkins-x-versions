@@ -88,18 +88,23 @@ pipelineConfig:
             command: ls
             args: ['-al']
 
+          - name: debug3
+            command: ls
+            args: ['-al']
+			dir: /workspace/source/arcalos
+
           - name: create_project
-            command: ./create_aps_consumer_project.sh
+            command: create_aps_consumer_project.sh
             args: ['${BRANCH_NAME}-${BUILD_NUMBER}arc']
             dir: /workspace/source/arcalos
 
           - name: deploy
-            command: ./deploy_aps.sh
+            command: deploy_aps.sh
             args: ['${BRANCH_NAME}-${BUILD_NUMBER}arc']
             dir: /workspace/source/arcalos
 
           - name: verify
-            command: ./verify.sh
+            command: verify.sh
             dir: /workspace/source/arcalos
           # - name: test
           #   command: timeout
