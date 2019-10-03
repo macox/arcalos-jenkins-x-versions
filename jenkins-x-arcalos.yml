@@ -78,7 +78,7 @@ pipelineConfig:
                   name: sa
           steps:
           - name: ci
-            command: ci.sh
+            command: ./ci.sh
             args: ['${BRANCH_NAME}-${BUILD_NUMBER}arc']
     release:
       pipeline:
