@@ -91,7 +91,7 @@ pipelineConfig:
           - name: debug3
             command: ls
             args: ['-al']
-			dir: /workspace/source/arcalos
+            dir: /workspace/source/arcalos
 
           - name: create_project
             command: create_aps_consumer_project.sh
