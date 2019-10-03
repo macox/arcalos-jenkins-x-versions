@@ -89,15 +89,6 @@ pipelineConfig:
             command: ls
             args: ['-al']
 
-          - name: debug3
-            command: mkdir
-            args: ['testdir']
-
-          - name: debug4
-            command: ls
-            args: ['-al']
-            dir: /workspace/source/testdir
-
           - name: create_project
             command: create_aps_consumer_project.sh
             args: ['${BRANCH_NAME}-${BUILD_NUMBER}arc']
