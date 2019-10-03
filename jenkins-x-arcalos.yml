@@ -81,13 +81,16 @@ pipelineConfig:
             command: git
             args: ['clone','https://github.com/cloudbees/arcalos']
           - name: create_project
-            command: ./arcalos/create_aps_consumer_project.sh
+            command: ./create_aps_consumer_project.sh
             args: ['${BRANCH_NAME}-${BUILD_NUMBER}arc']
+            dir: /workspace/source/arcalos
           - name: deploy
-            command: ./arcalos/deploy_aps.sh
+            command: ./deploy_aps.sh
             args: ['${BRANCH_NAME}-${BUILD_NUMBER}arc']
+            dir: /workspace/source/arcalos
           - name: verify
-            command: ./arcalos/verify.sh
+            command: ./verify.sh
+            dir: /workspace/source/arcalos
           # - name: test
           #   command: timeout
           #   args: ['20m','./test.sh','${BRANCH_NAME}-${BUILD_NUMBER}arc']
