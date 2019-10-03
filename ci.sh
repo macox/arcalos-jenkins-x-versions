@@ -2,7 +2,7 @@
 
 NAME=$1
 
-env
+export VERSIONS_GIT_REF=$PULL_PULL_SHA
 
 git clone https://github.com/cloudbees/arcalos
 pushd arcalos
