@@ -383,3 +383,9 @@ dependencies:
   url: https://github.com/jenkins-x/jenkins-x-builders-base
   version: 0.0.68
   versionURL: https://github.com/jenkins-x/jenkins-x-builders-base/releases/tag/v0.0.68
+- host: github.com
+  owner: cloudbees
+  repo: arcalos-boot-config
+  url: https://github.com/cloudbees/arcalos-boot-config
+  version: 1.0.3
+  versionURL: https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.3
