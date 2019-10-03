@@ -63,11 +63,6 @@ pipelineConfig:
           - value: jxaas
             name: USER
         stages:
-        - name: clone
-          steps:
-          - name: clone_arcalos
-            command: git
-            args: ['clone','https://github.com/cloudbees/arcalos','arcalos']
         - name: create
           options:
             volumes:
@@ -82,29 +77,9 @@ pipelineConfig:
                 - mountPath: /secret
                   name: sa
           steps:
-          - name: debug1
-            command: pwd
-
-          - name: debug2
-            command: ls
-            args: ['-al']
-
-          - name: create_project
-            command: create_aps_consumer_project.sh
+          - name: ci
+            command: ci.sh
             args: ['${BRANCH_NAME}-${BUILD_NUMBER}arc']
-            dir: /workspace/source/arcalos
-
-          - name: deploy
-            command: deploy_aps.sh
-            args: ['${BRANCH_NAME}-${BUILD_NUMBER}arc']
-            dir: /workspace/source/arcalos
-
-          - name: verify
-            command: verify.sh
-            dir: /workspace/source/arcalos
-          # - name: test
-          #   command: timeout
-          #   args: ['20m','./test.sh','${BRANCH_NAME}-${BUILD_NUMBER}arc']
     release:
       pipeline:
         agent:
