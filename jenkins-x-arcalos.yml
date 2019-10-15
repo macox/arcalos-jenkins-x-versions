@@ -102,20 +102,4 @@ pipelineConfig:
             - ${PULL_BASE_SHA}
 
           - name: update-arcalos
-            command: jx
-            args:
-            - step
-            - create
-            - pr
-            - regex
-            - --regex
-            - "\s*VERSIONS_GIT_REF=\"(.*)\""
-            - --version
-            - ${VERSION}
-            - --files
-            - ".secrets.default"
-            - --repo
-            - https://github.com/cloudbees/arcalos
-
-          - name: find_builder_version
-            sh: "sed 's:^.*\[jenkins-x/jenkins-x-builders\].*\[\([0-9.\-]*\)\].*$:\1:;t;d' dependency-matrix/matrix.md"
+            command: ./update-bot.sh
