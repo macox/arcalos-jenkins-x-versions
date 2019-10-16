@@ -84,9 +84,22 @@ pipelineConfig:
       pipeline:
         agent:
           image: busybox
+        environment:
+        - name: XDG_CONFIG_HOME
+          value: "/root"
         stages:
         - name: release
           steps:
-          - name: dummy
-            command: echo
-            args: ['TBD']
+          - name: changelog
+            command: jx
+            args:
+            - step
+            - changelog
+            - --verbose
+            - --version
+            - ${VERSION}
+            - --rev
+            - ${PULL_BASE_SHA}
+
+          - name: update-arcalos
+            command: ./update-bot.sh
