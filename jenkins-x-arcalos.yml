@@ -89,6 +89,15 @@ pipelineConfig:
           value: "/root"
         stages:
         - name: release
+          environment:
+          - name: GIT_COMMITTER_EMAIL
+            value: jenkins-x@googlegroups.com
+          - name: GIT_COMMITTER_NAME
+            value: jenkins-x-bot
+          - name: GIT_AUTHOR_EMAIL
+            value: jenkins-x@googlegroups.com
+          - name: GIT_AUTHOR_NAME
+            value: jenkins-x-bot
           steps:
           - name: changelog
             command: jx
@@ -100,6 +109,5 @@ pipelineConfig:
             - ${VERSION}
             - --rev
             - ${PULL_BASE_SHA}
-
           - name: update-arcalos            
             command: ./update-bot.sh
