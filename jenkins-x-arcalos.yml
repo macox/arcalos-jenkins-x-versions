@@ -83,7 +83,7 @@ pipelineConfig:
     release:
       pipeline:
         agent:
-          image: busybox
+          image: gcr.io/jenkinsxio/builder-jx:2.0.876-229
         environment:
         - name: XDG_CONFIG_HOME
           value: "/root"
@@ -101,6 +101,5 @@ pipelineConfig:
             - --rev
             - ${PULL_BASE_SHA}
 
-          - name: update-arcalos
-            image: gcr.io/jenkinsxio/builder-jx:2.0.876-229
+          - name: update-arcalos            
             command: ./update-bot.sh
