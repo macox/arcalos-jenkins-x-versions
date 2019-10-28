@@ -10,6 +10,5 @@ pushd arcalos
   cat ./templates/.secrets.defaults
   ./create_aps_consumer_project.sh $NAME
   ./deploy_aps.sh $NAME
-  ./label-project.sh $NAME
-  ./verify.sh $NAME
+  ./run_all_checks.sh $NAME
 popd
