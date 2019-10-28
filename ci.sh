@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 NAME=$1
 
 export VERSIONS_GIT_REF=$PULL_PULL_SHA
