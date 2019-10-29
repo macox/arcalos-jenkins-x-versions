@@ -396,5 +396,5 @@ dependencies:
   owner: cloudbees
   repo: arcalos-boot-config
   url: https://github.com/cloudbees/arcalos-boot-config
-  version: 1.0.20
-  versionURL: https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.20
+  version: 1.0.21
+  versionURL: https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.21
