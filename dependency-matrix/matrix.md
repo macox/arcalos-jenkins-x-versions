@@ -60,3 +60,4 @@ Dependency | Sources | Version | Mismatched versions
 [cloudbees/arcalos-boot-config](https://github.com/cloudbees/arcalos-boot-config) |  | [1.0.19](https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.19) | 
 [cloudbees/jx-tenant-service](https://github.com/cloudbees/jx-tenant-service) |  | []() | 
 [helm/cert-manager](https://github.com/helm/charts/tree/master/stable/cert-manager):cert-manager |  | [0.6.7]() | 
+[bitnami/external-dns](https://github.com/bitnami/charts/tree/master/bitnami/external-dns) |  | [2.10.0]() | 
