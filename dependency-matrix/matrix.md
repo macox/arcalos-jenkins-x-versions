@@ -57,5 +57,5 @@ Dependency | Sources | Version | Mismatched versions
 [jenkins-x-quickstarts/vertx-rest-prometheus](https://github.com/jenkins-x-quickstarts/vertx-rest-prometheus.git) |  | [1.0.0+fd180fd76]() | 
 [heptio/velero](https://github.com/heptio/velero):velero |  | [2.3.0]() | 
 [jenkins-x/jenkins-x-builders-base](https://github.com/jenkins-x/jenkins-x-builders-base) | [github.com/jenkins-x/jenkins-x-builders-ml](https://github.com/jenkins-x/jenkins-x-builders-ml.git) | [0.0.68](https://github.com/jenkins-x/jenkins-x-builders-base/releases/tag/v0.0.68) | 
-[cloudbees/arcalos-boot-config](https://github.com/cloudbees/arcalos-boot-config) |  | [1.0.19](https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.19) | 
-[cloudbees/jx-tenant-service](https://github.com/cloudbees/jx-tenant-service) |  | [0.0.145](https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.145) | 
+[cloudbees/arcalos-boot-config](https://github.com/cloudbees/arcalos-boot-config) |  | [1.0.23](https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.23) | 
+[cloudbees/jx-tenant-service](https://github.com/cloudbees/jx-tenant-service) |  | [0.0.141](https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.141) | 
