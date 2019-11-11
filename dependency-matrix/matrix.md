@@ -62,3 +62,4 @@ Dependency | Sources | Version | Mismatched versions
 [helm/cert-manager](https://github.com/helm/charts/tree/master/stable/cert-manager):cert-manager |  | [0.6.7]() | 
 [bitnami/external-dns](https://github.com/bitnami/charts/tree/master/bitnami/external-dns) |  | [2.10.0]() | 
 [helm/nginx-ingress](https://github.com/helm/charts/tree/master/stable/nginx-ingress):nginx-ingress |  | [1.24.5]() | 
+[cloudbees/jx-repository-controller](https://github.com/cloudbees/jx-repository-controller) |  | []() | 

@@ -434,3 +434,9 @@ dependencies:
   url: https://github.com/helm/charts/tree/master/stable/nginx-ingress
   version: 1.24.5
   versionURL: ""
+- host: github.com
+  owner: cloudbees
+  repo: jx-repository-controller
+  url: https://github.com/cloudbees/jx-repository-controller
+  version: ""
+  versionURL: ""
