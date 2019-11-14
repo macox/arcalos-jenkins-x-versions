@@ -13,7 +13,7 @@ dependencies:
     version: 0.1.758
     versionURL: https://github.com/jenkins-x/jenkins-x-builders/releases/tag/v0.1.758
   url: https://github.com/jenkins-x/jenkins-x-builders.git
-  version: 2.0.981-314
+  version: 2.0.984-316
   versionURL: ""
 - host: github.com
   owner: jenkins-x
@@ -42,10 +42,10 @@ dependencies:
       owner: jenkins-x
       repo: jenkins-x-builders-ml
       url: https://github.com/jenkins-x/jenkins-x-builders-ml.git
-      version: 0.1.915
-      versionURL: https://github.com/jenkins-x/jenkins-x-builders-ml/releases/tag/v0.1.915
-    version: 2.0.976
-    versionURL: https://github.com/jenkins-x/jx/releases/tag/v2.0.976
+      version: 0.1.921
+      versionURL: https://github.com/jenkins-x/jenkins-x-builders-ml/releases/tag/v0.1.921
+    version: 2.0.984
+    versionURL: https://github.com/jenkins-x/jx/releases/tag/v2.0.984
   - path:
     - host: github.com
       owner: jenkins-x
@@ -98,8 +98,8 @@ dependencies:
   owner: jenkins-x
   repo: jenkins-x-platform
   url: https://github.com/jenkins-x/jenkins-x-platform
-  version: 2.0.1602
-  versionURL: https://github.com/jenkins-x/jenkins-x-platform/releases/tag/v2.0.1602
+  version: 2.0.1604
+  versionURL: https://github.com/jenkins-x/jenkins-x-platform/releases/tag/v2.0.1604
 - host: github.com
   owner: jenkins-x-charts
   repo: jx-build-templates
@@ -164,8 +164,8 @@ dependencies:
   owner: grafana
   repo: grafana
   url: https://github.com/grafana/grafana
-  version: 4.0.2
-  versionURL: https://github.com/grafana/grafana/releases/tag/v4.0.2
+  version: 4.0.3
+  versionURL: ""
 - host: github.com
   owner: prometheus
   repo: alertmanager
@@ -203,8 +203,8 @@ dependencies:
   owner: jenkins-x
   repo: jenkins-x-builders-ml
   url: https://github.com/jenkins-x/jenkins-x-builders-ml.git
-  version: 0.1.920
-  versionURL: ""
+  version: 0.1.921
+  versionURL: https://github.com/jenkins-x/jenkins-x-builders-ml/releases/tag/v0.1.921
 - component: cert-manager
   host: github.com
   owner: helm
@@ -396,8 +396,8 @@ dependencies:
   owner: cloudbees
   repo: arcalos-boot-config
   url: https://github.com/cloudbees/arcalos-boot-config
-  version: 1.0.56
-  versionURL: https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.56
+  version: 1.0.57
+  versionURL: https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.57
 - host: github.com
   owner: cloudbees
   repo: jx-tenant-service
@@ -407,13 +407,13 @@ dependencies:
       owner: cloudbees
       repo: arcalos-boot-config
       url: https://github.com/cloudbees/arcalos-boot-config
-      version: 1.0.56
-      versionURL: https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.56
-    version: 0.0.221
-    versionURL: https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.221
+      version: 1.0.57
+      versionURL: https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.57
+    version: 0.0.222
+    versionURL: https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.222
   url: https://github.com/cloudbees/jx-tenant-service
-  version: 0.0.221
-  versionURL: https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.221
+  version: 0.0.224
+  versionURL: https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.224
 - component: cert-manager
   host: github.com
   owner: helm
