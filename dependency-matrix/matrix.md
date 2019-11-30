@@ -21,7 +21,7 @@ Dependency | Sources | Version | Mismatched versions
 [jetstack/cert-manager](https://github.com/jetstack/cert-manager) |  | [v0.9.1](https://github.com/jetstack/cert-manager/releases/tag/v0.9.1) | 
 [helm/charts](https://github.com/helm/charts/tree/master/stable/nginx-ingress) |  | [1.17.1]() | 
 [bitnami/charts](https://github.com/bitnami/charts/tree/master/bitnami/external-dns) |  | [2.10.2]() | 
-[grafana/grafana](https://github.com/grafana/grafana) |  | [4.0.4]() | 
+[grafana/grafana](https://github.com/grafana/grafana) |  | [4.0.5]() | 
 [prometheus/alertmanager](https://github.com/prometheus/alertmanager) |  | [9.3.1]() | 
 [weaveworks/flagger](https://github.com/weaveworks/flagger):flagger |  | [0.20.3](https://github.com/weaveworks/flagger/releases/tag/0.20.3) | 
 [weaveworks/flagger](https://github.com/weaveworks/flagger):grafana |  | [1.3.0]() | 
@@ -57,8 +57,8 @@ Dependency | Sources | Version | Mismatched versions
 [jenkins-x-quickstarts/vertx-rest-prometheus](https://github.com/jenkins-x-quickstarts/vertx-rest-prometheus.git) |  | [1.0.0+fd180fd76]() | 
 [heptio/velero](https://github.com/heptio/velero):velero |  | [2.4.0]() | 
 [jenkins-x/jenkins-x-builders-base](https://github.com/jenkins-x/jenkins-x-builders-base) | [github.com/jenkins-x/jenkins-x-builders-ml](https://github.com/jenkins-x/jenkins-x-builders-ml.git);[github.com/jenkins-x/jenkins-x-builders](https://github.com/jenkins-x/jenkins-x-builders.git) | [0.0.72](https://github.com/jenkins-x/jenkins-x-builders-base/releases/tag/v0.0.72) | 
-[cloudbees/arcalos-boot-config](https://github.com/cloudbees/arcalos-boot-config) |  | [1.0.100](https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.100) | 
-[cloudbees/jx-tenant-service](https://github.com/cloudbees/jx-tenant-service) | [github.com/cloudbees/arcalos-boot-config](https://github.com/cloudbees/arcalos-boot-config) | [0.0.266](https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.266) | 
+[cloudbees/arcalos-boot-config](https://github.com/cloudbees/arcalos-boot-config) |  | [1.0.103](https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.103) | 
+[cloudbees/jx-tenant-service](https://github.com/cloudbees/jx-tenant-service) | [github.com/cloudbees/arcalos-boot-config](https://github.com/cloudbees/arcalos-boot-config) | [0.0.268](https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.268) | 
 [helm/cert-manager](https://github.com/helm/charts/tree/master/stable/cert-manager):cert-manager |  | [0.6.7]() | 
 [bitnami/external-dns](https://github.com/bitnami/charts/tree/master/bitnami/external-dns) |  | [2.11.0]() | 
 [helm/nginx-ingress](https://github.com/helm/charts/tree/master/stable/nginx-ingress):nginx-ingress |  | [1.26.1]() | 
