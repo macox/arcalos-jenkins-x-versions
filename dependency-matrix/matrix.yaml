@@ -62,7 +62,7 @@ dependencies:
   owner: kubernetes-incubator
   repo: external-dns
   url: https://github.com/kubernetes-incubator/external-dns
-  version: 2.12.0
+  version: 2.13.0
   versionURL: ""
 - host: github.com
   owner: weaveworks
@@ -405,8 +405,8 @@ dependencies:
   owner: cloudbees
   repo: arcalos-boot-config
   url: https://github.com/cloudbees/arcalos-boot-config
-  version: 1.0.117
-  versionURL: https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.117
+  version: 1.0.118
+  versionURL: https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.118
 - host: github.com
   owner: cloudbees
   repo: jx-tenant-service
@@ -416,13 +416,13 @@ dependencies:
       owner: cloudbees
       repo: arcalos-boot-config
       url: https://github.com/cloudbees/arcalos-boot-config
-      version: 1.0.117
-      versionURL: https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.117
-    version: 0.0.293
-    versionURL: https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.293
+      version: 1.0.118
+      versionURL: https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.118
+    version: 0.0.295
+    versionURL: https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.295
   url: https://github.com/cloudbees/jx-tenant-service
-  version: 0.0.293
-  versionURL: https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.293
+  version: 0.0.295
+  versionURL: https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.295
 - component: cert-manager
   host: github.com
   owner: helm
@@ -434,7 +434,7 @@ dependencies:
   owner: bitnami
   repo: external-dns
   url: https://github.com/bitnami/charts/tree/master/bitnami/external-dns
-  version: 2.12.0
+  version: 2.13.0
   versionURL: ""
 - component: nginx-ingress
   host: github.com
