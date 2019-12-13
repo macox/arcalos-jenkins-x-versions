@@ -405,8 +405,8 @@ dependencies:
   owner: cloudbees
   repo: arcalos-boot-config
   url: https://github.com/cloudbees/arcalos-boot-config
-  version: 1.0.124
-  versionURL: https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.124
+  version: 1.0.125
+  versionURL: https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.125
 - host: github.com
   owner: cloudbees
   repo: jx-tenant-service
@@ -434,7 +434,7 @@ dependencies:
   owner: bitnami
   repo: external-dns
   url: https://github.com/bitnami/charts/tree/master/bitnami/external-dns
-  version: 2.13.0
+  version: 2.13.1
   versionURL: ""
 - component: nginx-ingress
   host: github.com
