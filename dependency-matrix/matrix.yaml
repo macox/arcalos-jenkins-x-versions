@@ -80,8 +80,8 @@ dependencies:
   owner: jenkins-x-charts
   repo: environment-controller
   url: https://github.com/jenkins-x-charts/environment-controller
-  version: 0.0.598
-  versionURL: https://github.com/jenkins-x-charts/environment-controller/releases/tag/v0.0.598
+  version: 0.0.599
+  versionURL: https://github.com/jenkins-x-charts/environment-controller/releases/tag/v0.0.599
 - host: github.com
   owner: jenkins-x
   repo: exposecontroller-service
