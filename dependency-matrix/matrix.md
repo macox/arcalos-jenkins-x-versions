@@ -61,5 +61,5 @@ Dependency | Sources | Version | Mismatched versions
 [cloudbees/jx-tenant-service](https://github.com/cloudbees/jx-tenant-service) | [github.com/cloudbees/arcalos-boot-config](https://github.com/cloudbees/arcalos-boot-config) | [0.0.368](https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.368) | **0.0.365**: [github.com/cloudbees/arcalos-boot-config](https://github.com/cloudbees/arcalos-boot-config)
 [helm/cert-manager](https://github.com/helm/charts/tree/master/stable/cert-manager):cert-manager |  | [0.6.7]() | 
 [bitnami/external-dns](https://github.com/bitnami/charts/tree/master/bitnami/external-dns) |  | [2.14.0]() | 
-[helm/nginx-ingress](https://github.com/helm/charts/tree/master/stable/nginx-ingress):nginx-ingress |  | [1.28.1]() | 
+[helm/nginx-ingress](https://github.com/helm/charts/tree/master/stable/nginx-ingress):nginx-ingress |  | [1.28.2]() | 
 [cloudbees/jx-repository-controller](https://github.com/cloudbees/jx-repository-controller) |  | [0.0.98](https://github.com/cloudbees/jx-repository-controller/releases/tag/v0.0.89) | 
