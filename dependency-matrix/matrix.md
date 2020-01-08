@@ -10,7 +10,7 @@ Dependency | Sources | Version | Mismatched versions
 [jenkins-x-charts/environment-controller](https://github.com/jenkins-x-charts/environment-controller) |  | [0.0.615](https://github.com/jenkins-x-charts/environment-controller/releases/tag/v0.0.615) | 
 [jenkins-x/exposecontroller-service](https://github.com/jenkins-x/exposecontroller-service) |  | [1.0.7]() | 
 [jenkins-x/exposecontroller](https://github.com/jenkins-x/exposecontroller) |  | [2.3.117](https://github.com/jenkins-x/exposecontroller/releases/tag/v2.3.117) | 
-[jenkins-x/jenkins-x-platform](https://github.com/jenkins-x/jenkins-x-platform) |  | [2.0.1830](https://github.com/jenkins-x/jenkins-x-platform/releases/tag/v2.0.1830) | 
+[jenkins-x/jenkins-x-platform](https://github.com/jenkins-x/jenkins-x-platform) |  | [2.0.1832](https://github.com/jenkins-x/jenkins-x-platform/releases/tag/v2.0.1832) | 
 [jenkins-x-charts/jx-build-templates](https://github.com/jenkins-x-charts/jx-build-templates) |  | [0.0.1300]() | 
 [jenkins-x-charts/knative-build](https://github.com/jenkins-x-charts/knative-build) |  | [0.1.19]() | 
 [jenkins-x/lighthouse](https://github.com/jenkins-x/lighthouse) |  | [0.0.377]() | 
@@ -57,9 +57,9 @@ Dependency | Sources | Version | Mismatched versions
 [jenkins-x-quickstarts/vertx-rest-prometheus](https://github.com/jenkins-x-quickstarts/vertx-rest-prometheus.git) |  | [1.0.0+fd180fd76]() | 
 [heptio/velero](https://github.com/heptio/velero):velero |  | [2.7.4]() | 
 [jenkins-x/jenkins-x-builders-base](https://github.com/jenkins-x/jenkins-x-builders-base) | [github.com/jenkins-x/jenkins-x-builders-ml](https://github.com/jenkins-x/jenkins-x-builders-ml.git);[github.com/jenkins-x/jenkins-x-builders](https://github.com/jenkins-x/jenkins-x-builders.git) | [0.0.75](https://github.com/jenkins-x/jenkins-x-builders-base/releases/tag/v0.0.75) | 
-[cloudbees/arcalos-boot-config](https://github.com/cloudbees/arcalos-boot-config) |  | [1.0.142](https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.142) | 
-[cloudbees/jx-tenant-service](https://github.com/cloudbees/jx-tenant-service) | [github.com/cloudbees/arcalos-boot-config](https://github.com/cloudbees/arcalos-boot-config) | [0.0.362](https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.362) | 
+[cloudbees/arcalos-boot-config](https://github.com/cloudbees/arcalos-boot-config) |  | [1.0.143](https://github.com/cloudbees/arcalos-boot-config/releases/tag/v1.0.143) | 
+[cloudbees/jx-tenant-service](https://github.com/cloudbees/jx-tenant-service) | [github.com/cloudbees/arcalos-boot-config](https://github.com/cloudbees/arcalos-boot-config) | [0.0.365](https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.365) | 
 [helm/cert-manager](https://github.com/helm/charts/tree/master/stable/cert-manager):cert-manager |  | [0.6.7]() | 
 [bitnami/external-dns](https://github.com/bitnami/charts/tree/master/bitnami/external-dns) |  | [2.14.0]() | 
-[helm/nginx-ingress](https://github.com/helm/charts/tree/master/stable/nginx-ingress):nginx-ingress |  | [1.27.2]() | 
+[helm/nginx-ingress](https://github.com/helm/charts/tree/master/stable/nginx-ingress):nginx-ingress |  | [1.28.0]() | 
 [cloudbees/jx-repository-controller](https://github.com/cloudbees/jx-repository-controller) |  | [0.0.98](https://github.com/cloudbees/jx-repository-controller/releases/tag/v0.0.89) | 
