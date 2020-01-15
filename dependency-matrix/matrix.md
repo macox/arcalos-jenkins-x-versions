@@ -9,9 +9,9 @@ Dependency | Sources | Version | Mismatched versions
 [jenkins-x/dex](https://github.com/jenkins-x/dex) |  | [2.13.23]() | 
 [jenkins-x-charts/environment-controller](https://github.com/jenkins-x-charts/environment-controller) |  | [0.0.631](https://github.com/jenkins-x-charts/environment-controller/releases/tag/v0.0.631) | 
 [jenkins-x/exposecontroller-service](https://github.com/jenkins-x/exposecontroller-service) |  | [1.0.7]() | 
-[jenkins-x/exposecontroller](https://github.com/jenkins-x/exposecontroller) |  | [2.3.117](https://github.com/jenkins-x/exposecontroller/releases/tag/v2.3.117) | 
-[jenkins-x/jenkins-x-platform](https://github.com/jenkins-x/jenkins-x-platform) |  | [2.0.1865](https://github.com/jenkins-x/jenkins-x-platform/releases/tag/v2.0.1865) | 
-[jenkins-x-charts/jx-build-templates](https://github.com/jenkins-x-charts/jx-build-templates) |  | [0.0.1316]() | 
+[jenkins-x/exposecontroller](https://github.com/jenkins-x/exposecontroller) |  | [2.3.118](https://github.com/jenkins-x/exposecontroller/releases/tag/v2.3.118) | 
+[jenkins-x/jenkins-x-platform](https://github.com/jenkins-x/jenkins-x-platform) |  | [2.0.1849](https://github.com/jenkins-x/jenkins-x-platform/releases/tag/v2.0.1849) | 
+[jenkins-x-charts/jx-build-templates](https://github.com/jenkins-x-charts/jx-build-templates) |  | [0.0.1308]() | 
 [jenkins-x-charts/knative-build](https://github.com/jenkins-x-charts/knative-build) |  | [0.1.19]() | 
 [jenkins-x/lighthouse](https://github.com/jenkins-x/lighthouse) |  | [0.0.389]() | 
 [jenkins-x-charts/prow](https://github.com/jenkins-x-charts/prow) |  | [0.0.1595](https://github.com/jenkins-x-charts/prow/releases/tag/v0.0.1595) | 
