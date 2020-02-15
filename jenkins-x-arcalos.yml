@@ -45,10 +45,7 @@ pipelineConfig:
                 name: arcalos-secret
                 key: pipeline_github_token
           - name: GIT_OWNER
-            valueFrom:
-              secretKeyRef:
-                name: arcalos-secret
-                key: git_owner
+            value: arcalos-environments
           - name: USER
             value: jxaas
           - name: INGRESS_TLS_PRODUCTION
